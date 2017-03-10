@@ -65,7 +65,7 @@ if __name__ == '__main__':
     while True:
         try:
             if(GPIO.input(3)==1):
-                connectionString = 'HostName=sudhirawiothub.azure-devices.net;SharedAccessKeyName=device;SharedAccessKey=aEH+00hL0YAiXTSVjFrmn76GiWtN7CGxixgILP81FEQ='
+                connectionString = 'HostName=sudhirawiothub.azure-devices.net;SharedAccessKeyName=device;SharedAccessKey=<SharedAccessKey>'
                 d2cMsgSender = D2CMsgSender(connectionString)
                 deviceId = 'iotdevice1'
                 message = '1'
