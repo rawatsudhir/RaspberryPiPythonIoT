@@ -71,7 +71,7 @@ class DeviceManager:
         return r.text, r.status_code
         
 if __name__ == '__main__':
-    connectionString = 'HostName=sudhirawiothub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=ESyuhph6b7VW30MQM4+UwPW/JdmGYsVY84IDpD9rivs='
+    connectionString = 'HostName=sudhirawiothub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=<SharedAccessKey>'
     dm = DeviceManager(connectionString)
     deviceId = 'iotdevice1'
     print dm.createDeviceId(deviceId)
