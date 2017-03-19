@@ -68,7 +68,7 @@ if __name__ == '__main__':
                 connectionString = 'HostName=sudhirawiothub.azure-devices.net;SharedAccessKeyName=device;SharedAccessKey=<SharedAccessKey>'
                 d2cMsgSender = D2CMsgSender(connectionString)
                 deviceId = 'iotdevice1'
-                message = '1'
+                message = '{"data": "1"}'
                 print d2cMsgSender.sendD2CMsg(deviceId, message)
                 time.sleep(.5)
         except IOError:
