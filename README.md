@@ -15,13 +15,19 @@ To get this to work, follow the steps below:
  Without giving power to the Raspberry Pi yet, make sure you have connected the touch sensor to the Raspberry Pi as per below. Pin mapping of Raspberry Pi is available here.
   
   GND of
+  
       touch sensor to GND (Pin 6) of Raspberry Pi
+  
   VCC of
+  
       touch sensor to 5V PWR (Pin 2) of Raspberry Pi
+  
   SIG of
+  
       touch sensor to GPIO 2 (Pin 3) of Raspberry Pi
  
 Note: GND, VCC and SIG are specified near the touch sensor pins.
+
 
 Connect the HDMI cable from the Raspberry Pi to the Monitor. Also, connect the wired keyboard and wired mouse to the USB slots in the Raspberry Pi.
 
