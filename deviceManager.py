@@ -1,19 +1,3 @@
-"""
-Module Name:  deviceManager.py
-Project:      IoTHubRestSample
-Copyright (c) Microsoft Corporation.
-
-Using [Device Indentities REST APIs](https://msdn.microsoft.com/en-us/library/azure/mt548489.aspx) to create a new device identity, retrieve a device identity, and list device identities.
-
-This source is subject to the Microsoft Public License.
-See http://www.microsoft.com/en-us/openness/licenses.aspx#MPL
-All other rights reserved.
-
-THIS CODE AND INFORMATION IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, 
-EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED 
-WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A PARTICULAR PURPOSE.
-"""
-
 import base64
 import hmac
 import hashlib
