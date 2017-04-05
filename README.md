@@ -1,20 +1,19 @@
-RaspberryPiPythonIoT 
-
 # Overview
 
 This repository contains a solution to take readings from a touch sensor and send them to cloud (Microsoft Azure) for real-time analytics, using Python on a Raspberry Pi running Raspbian OS.
 
 # Prerequisites
 
-  > Raspberry Pi
-  > Touch sensor
-  > Azure subscription
-  > Azure Blob storage/Power BI online account (you can create a free trial at https://www.powerbi.com)
+1) Raspberry Pi
+2) Touch sensor
+3) Azure subscription
+4) Azure Blob storage/Power BI online account (you can create a free trial at https://www.powerbi.com)
 
 # Steps
 
 To get this to work, follow the steps below:
  Without giving power to the Raspberry Pi yet, make sure you have connected the touch sensor to the Raspberry Pi as per below. Pin mapping of Raspberry Pi is available here.
+  
   GND of
       touch sensor to GND (Pin 6) of Raspberry Pi
   VCC of
